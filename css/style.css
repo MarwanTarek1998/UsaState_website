@@ -1,6 +1,114 @@
-.section-padding{
-    padding: 50px 0;
+*{
+    box-sizing: border-box;
 }
+
+.section-padding{
+    padding: 50px 0 ;
+}
+
+
+/* Header */
+header .nav-container{
+    background-color: #CCD4E0;
+}
+
+
+header nav .navbar-nav .nav-item{
+    padding: 5px 0;
+    transition: .4s;
+}
+header nav .navbar-nav .nav-item:hover{
+    background-color: #012766;
+}
+header nav .navbar-nav .nav-item:hover .nav-link{
+    color: white !important;
+}
+header nav .navbar-nav .nav-link{
+    color: #012766 !important;
+    font-weight: bold;
+    transition: .4s;
+}
+
+header nav .social-container .icon{
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    color: #012766;
+    border: 1px solid #012766;
+    cursor: pointer;
+}
+header nav .navbar-toggler{
+    border: none !important;
+}
+
+header nav .navbar-toggler:focus{
+    box-shadow: none !important;
+}
+/* Header */
+
+/* Leader section */
+
+.leader .title{
+    color: #BC133E;
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+}
+
+.leader .title::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    height: 1px;
+    transform: translateX(-50%);
+    width: 20%;
+    background-color: #BC133E;
+}
+
+/* Leader section */
+
+/* analysis */
+.analysis{
+    background-color: #012766;
+}
+.analysis .number{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 0  !important;
+    font-family: 'Merriweather', serif;
+}
+
+/* analysis */
+
+/* About Us */
+
+.about-us{
+    
+}
+
+.about-us .about-us-img{
+    width: 90px;
+    margin: auto;
+}
+
+.about-us .line{
+    width: 1px;
+    height: 20px;
+    background-color: black;
+    margin: auto;
+}
+
+.about-us .about-text{
+    padding: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+
+/* About Us */
 
 /* contact us */
 .contactus {
